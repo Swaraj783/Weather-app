@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Montserrsat", sans-serif;
+  background-color: #c6a8a8;
+}
+.icon img {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#intro {
+  position: absolute;
+  padding: 15px 25px;
+  position: center;
+  background-color: rgb(57, 100, 168);
+}
+
+#weatherContainer {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 5px black;
+  margin: 0 auto;
+  margin-top: 60px;
+  background: linear-gradient(to right, #4caf50, #2196f3);
+  padding: 50px;
+  border-radius: 20px;
+  position: absolute;
+  visibility: hidden;
+}
+/*.container {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 600px;
+
+  border-radius: 5px;
+  padding: 20px;
+}*/
+#weatherContainer h1 {
+  margin: 5px;
+  font-size: 42px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#searchContainer {
+  padding: 20px;
+  margin-left: 37%;
+}
+#searchContainer input {
+  width: 200px;
+}
+#searchContainer button {
+  background-color: skyblue;
+  color: white;
+  width: 75px;
+}
+.searchControl {
+  box-shadow: 2px 2px 5px skyblue;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+@media (min-width: 768px) {
+  #searchContainer input {
+    width: 50vh;
+    height: 10vh;
+  }
+  #searchContainer button {
+    width: 10vh;
+    height: 10vh;
+  }
+}
+#weatherMain {
+  display: block;
+  margin-bottom: 20px;
+}
+#weatherMain div {
+  display: inline-block;
+}
+#weatherDescriptionHeader {
+  font-size: 28px;
+  vertical-align: 50%;
+}
+#temperature {
+  font-size: 38px;
+  vertical-align: 25%;
+}
+.bottom-details {
+  display: block;
+  font-size: 24px;
+  text-align: right;
+}
+hr {
+  margin-bottom: 20px;
+}
